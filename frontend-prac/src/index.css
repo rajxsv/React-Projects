@@ -1,0 +1,88 @@
+html , body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.navbar {
+  justify-content: center;
+  padding: 2rem;
+  display: flex;
+  gap:1rem;
+  background-color: rgb(122, 163, 252);
+  color : black;
+}
+
+.side-panel {
+  color : black;
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 2rem;
+  background-color: rgb(122, 163, 252);
+  border-top-right-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+  height: 90%;
+}
+
+.content-heading {
+  font-size: x-large;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.property {
+  background-color: rgb(53, 158, 251);
+  padding: 0.5rem;
+  margin: 0.4rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.landing {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  font-size: smaller;
+}
+
+.content {
+  padding: 3rem;
+  margin: 2rem;
+  background-color:rgb(37, 95, 195);
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.notice {
+  width: 100%;
+  font-size: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color : inherit
+}
