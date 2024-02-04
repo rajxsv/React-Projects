@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divA {
+    background-color: aquamarine;
+    border-radius: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
